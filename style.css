@@ -1,0 +1,27 @@
+.card{
+    width: 25%;
+    height: 50vh;
+    background: linear-gradient(to right,#0e1728 50%,#000721 50%);
+    color: #fff;
+    font-family:  sans-serif;
+    padding: 1.5rem;
+}
+.content{
+    margin-top: 9rem;
+}
+.button{
+    padding: .6rem 1.3rem;
+    background: transparent;
+    color: #fff;
+    border: solid .3px #fff;
+    display: none;
+    
+}
+.button:hover{
+    background-color: #fff;
+    color: #000721;
+}
+.card:hover .button {
+    display: inline-block;
+    cursor: pointer;
+}
