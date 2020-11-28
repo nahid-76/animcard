@@ -26,13 +26,20 @@
 .card:hover .button {
     display: inline-block;
     cursor: pointer;
+    
 }
+.card:hover .num {
+   transform: translateY(-50px);
+   transition: transform 200ms ease-in;
+}
+
 .num{
-    margin-left: 5.8rem;
-    margin-top: -6rem;
+    margin-left: 6.6rem;
+    margin-top: -4rem;
     font-weight: 800;
     font-size: 8rem;
     position: absolute;
     z-index: -100;
     color: #181f2f;
+    font-stretch: condensed;
 }
