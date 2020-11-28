@@ -26,7 +26,7 @@
 .card:hover .button {
     display: inline-block;
     cursor: pointer;
-    
+    animation: animbutton 300ms 1;
 }
 .card:hover .num {
    transform: translateY(-50px);
@@ -42,4 +42,14 @@
     z-index: -100;
     color: #181f2f;
     font-stretch: condensed;
+}
+@keyframes animbutton{
+    0%{
+        transform: translateY(-50px);
+        
+    }
+    100%{
+        transform: translateY(0);
+        
+    }
 }
