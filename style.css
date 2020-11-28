@@ -1,21 +1,23 @@
 .card{
-    width: 25%;
+    width: 20%;
     height: 50vh;
     background: linear-gradient(to right,#0e1728 50%,#000721 50%);
     color: #fff;
     font-family:  sans-serif;
     padding: 1.5rem;
+    position: relative;
+    z-index: 100;
+    border: solid 2px black;;
 }
 .content{
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 .button{
-    padding: .6rem 1.3rem;
+    padding: .8rem 1.6rem;
     background: transparent;
     color: #fff;
     border: solid .3px #fff;
     display: none;
-    
 }
 .button:hover{
     background-color: #fff;
@@ -24,4 +26,13 @@
 .card:hover .button {
     display: inline-block;
     cursor: pointer;
+}
+.num{
+    margin-left: 5.8rem;
+    margin-top: -6rem;
+    font-weight: 800;
+    font-size: 8rem;
+    position: absolute;
+    z-index: -100;
+    color: #181f2f;
 }
